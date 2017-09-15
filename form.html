@@ -1,0 +1,54 @@
+<html>
+<body>
+<link rel="stylesheet" href="fuck.css" type="text/css">
+<h3>FLIGHT RESERVATION</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+	    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your Email..">
+	
+	    <label for="password">Password</label>
+    <input type="text" id="text" name="password" placeholder="Your Password..">
+	
+	    <h3>Date for flight</h3>
+
+<input type="date" id="myDate" value="2014-02-09">
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDate").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+	
+<br>
+	<label for="name">Passport no.</label>
+    <input type="text" id="email" name="email" placeholder="Your passport no...">
+	
+		<label for="email">Passport Status.</label>
+    <input type="text" id="email" name="email" placeholder="Your passport status...">
+
+<br>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+	  <option value="philippines">PHILIPPINES</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
